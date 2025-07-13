@@ -1,0 +1,10 @@
+.login{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}

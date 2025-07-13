@@ -1,0 +1,18 @@
+.balanceBox {
+  width: 100px;
+  margin: auto;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  right: 10px;
+  border: 2px solid green;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #e0ffe0;
+  color: green;
+  font-weight: bold;
+  user-select: none;
+  z-index: 1000;
+  box-shadow: 0 0 8px rgba(0, 128, 0, 0.5);
+}
