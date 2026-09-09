@@ -1,12 +1,12 @@
-# 🌱 Farm Game - Frontend Çalışma Projesi
+# Farm Game - Frontend Çalışma Projesi
 
-Bu proje, modern **Frontend geliştirme** yeteneklerini ve interaktif web uygulaması mimarisini pratik etmek amacıyla geliştirilmiş bir **Frontend Çalışma ve Öğrenme Projesidir**.
+Bu proje, modern **Frontend geliştirme** yeteneklerimi ve interaktif web uygulaması mimarisini pratik etmek amacıyla geliştirdiğim bir **Frontend Çalışma ve Öğrenme Projesidir**.
 
 Uygulama; kullanıcı yönetimi, envanter sistemi, dinamik mağaza ekonomisi ve zaman tabanlı tarla ekim simülasyonunu içerir.
 
 ---
 
-## 🚀 Teknolojiler ve Mimari
+## Teknolojiler ve Mimari
 
 Bu projede aşağıdaki güncel web teknolojileri kullanılmıştır:
 
@@ -19,7 +19,7 @@ Bu projede aşağıdaki güncel web teknolojileri kullanılmıştır:
 
 ---
 
-## ✨ Proje Özellikleri
+## Proje Özellikleri
 
 1. **Giriş & Kayıt Sistemi (Auth Flow):**
    - Kullanıcı kayıt ve giriş ekranları.
@@ -46,7 +46,7 @@ Bu projede aşağıdaki güncel web teknolojileri kullanılmıştır:
 
 ---
 
-## 🛠️ Yerel Kurulum ve Çalıştırma
+## Yerel Kurulum ve Çalıştırma
 
 Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
@@ -71,4 +71,4 @@ Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyeb
 
 ---
 
-> 📝 **Not:** Bu repo bir frontend öğrenme projesi olup sürekli geliştirilmeye açıktır.
+> **Not:** Bu repo bir frontend öğrenme projesi olup sürekli geliştirilmeye açıktır.
