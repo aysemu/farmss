@@ -1,18 +1,72 @@
-.hello{
-  width: 200px;
-  height: 200px;
-  background-color: antiquewhite;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
 }
-.button{
-    width: 20px;
-    height: 10px;
-    background-color: bisque;
-    border-color: black;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    display: flex;
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background-color: #fff8ee;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 25px rgba(92, 61, 30, 0.15);
+  text-align: center;
+  border: 2px solid #e2d2bc;
 }
+
+.title {
+  font-size: 2rem;
+  color: #5c3d1e;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #8c6e4e;
+  margin-bottom: 30px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.primaryBtn {
+  background-color: #5c8d4a;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primaryBtn:hover {
+  background-color: #4a753a;
+  transform: translateY(-2px);
+}
+
+.secondaryBtn {
+  background-color: #d97736;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.secondaryBtn:hover {
+  background-color: #be6326;
+  transform: translateY(-2px);
+}

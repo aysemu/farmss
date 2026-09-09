@@ -1,18 +1,18 @@
 "use client";
 import React, { createContext, useState, ReactNode } from "react";
-import styles from "./Balance.module.css";
 
 export const BalanceContext = createContext({
   balance: 100,
-  spendCoins: (amount: number) => false,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  spendCoins: (amount: number) => false as boolean,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   earnCoins: (amount: number) => {},
 });
 
 export function BalanceProvider({ children }: { children: ReactNode }) {
   const [balance, setBalance] = useState(100);
-  
 
-  function spendCoins(amount: 10) {
+  function spendCoins(amount: number): boolean {
     if (balance >= amount) {
       setBalance(balance - amount);
       return true;
@@ -20,16 +20,14 @@ export function BalanceProvider({ children }: { children: ReactNode }) {
     return false;
   }
 
-  function earnCoins(amount: 20) {
+  function earnCoins(amount: number): void {
     setBalance(balance + amount);
   }
 
   return (
-    <>
-      <div className={styles.balanceBox}>Coin: {balance}</div>
-      <BalanceContext.Provider value={{ balance, spendCoins, earnCoins }}>
-        {children}
-      </BalanceContext.Provider>
-    </>
+    <BalanceContext.Provider value={{ balance, spendCoins, earnCoins }}>
+      {children}
+    </BalanceContext.Provider>
   );
 }
+
